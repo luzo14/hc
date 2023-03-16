@@ -117,6 +117,7 @@ header{
     border-radius:5px 0px 0px 5px ;
     font-size: .85rem;
     border: none;
+    border-right: 2px solid rgb(158, 158, 158);
     border-right-style: #444444;
 }
 

@@ -356,7 +356,8 @@ table, th, td{
     color: black;
     text-decoration: none;
     display: block;
-    margin: 5px;
+    margin: 10px 5px;
+    
 }
 
 .menu_hot_item{
@@ -469,7 +470,7 @@ table, th, td{
 }
 
 .product_list_item a{
-    margin: 5px 0px;
+    margin: 10px 0px;
     line-height: 1.3rem;
     display: grid;
 }

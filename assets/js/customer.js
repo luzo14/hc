@@ -3,7 +3,7 @@ firstImg = searchHot.querySelectorAll(".search_hot_list")[0];
 arrowIcon = document.querySelectorAll(".search_most_content i");
 
 let isDragStart = false, prevPageX, prevScrollLeft;
-let firstImgWidth = firstImg.clientWidth + 19;
+let firstImgWidth = firstImg.clientWidth + 20;
 
 arrowIcon.forEach(icon =>{
     icon.addEventListener("click",()=>{
@@ -32,3 +32,4 @@ const dragStop = () => {
 searchHot.addEventListener("mousedown", dragStart);
 searchHot.addEventListener("mousemove", dragging);
 searchHot.addEventListener("mouseup", dragStop);
+
